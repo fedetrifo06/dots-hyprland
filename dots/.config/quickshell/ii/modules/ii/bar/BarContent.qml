@@ -313,6 +313,7 @@ Item { // Bar content region
                         color: rightSidebarButton.colText
                     }
                     MaterialSymbol {
+                        Layout.leftMargin: indicatorsRowLayout.realSpacing
                         visible: !BluetoothStatus.available
                         text: "power_settings_new"
                         iconSize: Appearance.font.pixelSize.larger
